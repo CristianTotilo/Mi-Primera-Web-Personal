@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+h2{
+    line-height: 40px;
+}
+h3{
+    line-height: 30px;
+}
+body{
+    background:#e6e6e6;
+}
+.logotipo{
+    background:url(../images/fondo3.jpg);
+    margin-bottom: 2px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: content-box;
+}
+
+header,footer,.main {
+    width:90%;
+    margin:20px auto;
+    max-width: 1000px;
+    font-family:Cambria, Times, 'Times New Roman', serif;
+}
+header nav{
+    font-weight: bold;
+    font-size: 20px;
+    background:#528FD5;
+    overflow: hidden;
+}
+header ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color:#000;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: #75ACEC;
+}
+
+.main .articles {
+    float:left;
+    margin-right:1.5%;
+    width:68.5%;
+}
+
+.main .articles article{
+    padding: 15px;
+    background:white;
+    margin-bottom: 20px;
+}
+    
+aside{
+    width:30%;
+    float:left;
+    background-color: dimgray;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    background: #000;
+    color:white;
+    clear:both;
+    padding: 10px 0px;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer table tr td{
+    padding: 5px 10px;
+}
