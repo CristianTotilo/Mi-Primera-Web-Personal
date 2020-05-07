@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cristian Totilo</title>
     <link rel="stylesheet" href="css/Estilos.css">
+    <script src="js/validar.js"></script>
 </head>
 
 <body>
     <header>
         <div class="logotipo">
             <img src="images/perfil.jpg" width= "180" alt="150">
+            <h1>Cristian Totilo</h1>
         </div>
         <nav>
             <ul>
@@ -34,11 +36,41 @@
                 <p>Tareas realizadas: Auditor de procesos en planta, Auditor de materia prima, Desarrollo de esmaltes vitro-ceramicos, Ensayos de simulacion climatica - corrosion.         
                 </p>
             </article>
+            <article>
+                <h2>Formacion Academica:</h2>
+                <h3>Tecnico Universitario en Sistemas Informaticos</h3>
+                <p>Segundo año de la carrera en curso </br>UTN – Facultad Regional Gral. Pacheco</p>
+                <h3>Tecnico Quimico</h3>
+                <p>17- Diciembre -2013 </br>E.E.S.T. Nº1 Hipólito Bouchard </p>
+            </article>
+            <article>
+                <h2>Idiomas:</h2>
+                <p>•  Español: Nativo. </br>•  Ingles: Avanzado. </br>•  Portuges: Basico. </p>
+            </article>
+            <article>
+                <h2>Conocimientos:</h2>
+                <p> • Microsoft Office: Conocimiento avanzado en Word, PowerPoint & Excel.</br>
+                    • Lenguajes de programación: C, C++, C# en .NET, HTML, CSS.</br>
+                    • Bases de datos: SQL server, PostgreSQL.</p>
+            </article>
 
         </section>
         <aside>
-             <h3>Esto es un titulo.</h3>
-             <p>esto es puro relleno no lo leas i sidebar Fragmento de un escrito con unidad tematica, que queda diferenciado del resto de fragmentos por un punto y aparte y generalmente tambien por llevar letra mayuscula inicial y un espacio en blanco en el margen izquierdo de alineacion del texto principal de la primera linea</p>
+             <h4>Podes contactarme enviandome un mensaje a mi casilla de mail:</h4>
+             <form action="" method="post">
+                 <div>
+                    <label for="nombre">Nombre y Apellido:</label></br><input name="nombre" id="txtnombre" type="text">
+                 </div>
+                 <div>
+                    <label for="email">Email:</label></br><input name="email" id="txtemail" type="text">
+                 </div>
+                 <div>
+                    <label for="mensaje">Mensaje:</label></br><input name="mensaje" id="txtmensaje" type="text">
+                 </div>
+                 <div>
+                     <button onclick="validar()">Enviar</button>
+                 </div>
+             </form>
         </aside>
     </section>
 
@@ -46,16 +78,6 @@
          <p>Redes:</p>
         <table>
             <tr>
-                <!--esto esta mal pero quise utilizar la table en alguna parte y no tengo otra forma de centrar los objetos, no se repetira jamas!-->
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
                 <td><img src="images/linkedin.ico" alt="linkedin" width="50" height="50"></td>
                 <td><img src="images/facebook.ico" alt="facebook" width="50" height="50"></td>
                 <td><img src="images/twitter.ico" alt="twitter" width="50" height="50"></td>
